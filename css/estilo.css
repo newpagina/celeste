@@ -4,24 +4,52 @@
     }
     
     .body {
-        background-color: hsla(115, 94%, 50%, 0.596);
+        background-color: rgba(4, 233, 4, 0.541);
     }
     
     #titulo {
+        position: relative;
         text-align: center;
         background-color: rgba(255, 192, 203, 0.89);
         color: rgba(204, 7, 178, 0.877);
         text-shadow: 1px 2px 3px black;
     }
     
+    .menu {
+        color: rgb(0, 0, 0);
+        z-index: auto;
+        margin-top: -35px;
+        text-align: right;
+        margin-right: 350px;
+        margin-top: -40px;
+        font-size: 30px;
+    }
+    
+    .menu li {
+        display: inline;
+        padding: 5px;
+        background-color: pink;
+        font-size: 20px;
+        cursor: pointer;
+        box-shadow: 2px 2px 4px red;
+        position: relative;
+    }
+    
+    .menu li:hover {
+        color: blue;
+    }
+    
     .fondo {
         margin-left: 650px;
         width: 30%;
+        box-shadow: 1px 2px 3px black;
+        margin-top: 6px;
     }
     
     .fondo1 {
         margin-left: 650px;
         width: 30%;
+        box-shadow: 1px 2px 3px black;
     }
     
     #saludo {
@@ -42,22 +70,26 @@
     
     @media (max-width: 980px) {
         .fondo {
+            margin-top: 0PX;
             width: 50%;
-            margin-left: 100px;
+            margin-left: 116px;
             box-shadow: 2px 3px 4px black;
+        }
+        .menu {
+            display: none;
         }
         #saludo {
             font-size: 20px;
-            margin-left: -15px;
+            margin-left: -30px;
         }
         #saludo1 {
             font-size: 20px;
-            margin-left: 5px;
+            margin-left: 25px;
             width: 90%;
         }
         .fondo1 {
             width: 50%;
-            margin-left: 100px;
+            margin-left: 116px;
             box-shadow: 2px 3px 4px black;
             margin-top: 0px;
             margin-bottom: 0px;
