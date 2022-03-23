@@ -77,7 +77,25 @@
                 }
                 
                 #btn1 {
-                    display: none;
+                    margin-left: 100px;
+                }
+                
+                .depi {
+                    width: 100%;
+                }
+                
+                #wasap {
+                    margin-top: 10px;
+                    padding: 10px;
+                    background-color: rgb(196, 202, 255);
+                    color: blue;
+                    font-family: Arial;
+                    box-shadow: 1px 2px 3px red;
+                    font-size: 1em;
+                }
+                
+                #wasap a {
+                    text-decoration: none;
                 }
                 
                 @media (max-width: 980px) {
@@ -105,7 +123,6 @@
                         box-shadow: 1px 2px 3px black;
                     }
                     #btn1 {
-                        display: block;
                         margin-top: 30px;
                         padding: 10px;
                         margin-left: 150px;
@@ -114,8 +131,5 @@
                         font-family: Arial;
                         box-shadow: 1px 2px 3px red;
                         font-size: 1em;
-                    }
-                    #btn1 a {
-                        text-decoration: none;
                     }
                 }
