@@ -2,7 +2,7 @@ var cont = 0
 
 function cambia() {
     cont++;
-    switch (cont % 4 + 1) {
+    switch (cont % 5 + 1) {
         case 1:
             document.getElementById("fotocambia").src = "img/1.jpg";
             break;
@@ -15,6 +15,11 @@ function cambia() {
         case 4:
             document.getElementById("fotocambia").src = "img/4.jpg";
             break;
+
+        case 5:
+            document.getElementById("fotocambia").src = "img/5.jpg";
+            break;
+
     }
 
 }
