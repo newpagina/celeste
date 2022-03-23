@@ -111,7 +111,11 @@
                         margin-left: 150px;
                         background-color: rgb(196, 202, 255);
                         color: blue;
-                        font-family: Georgia, 'Times New Roman', Times, serif;
+                        font-family: Arial;
                         box-shadow: 1px 2px 3px red;
+                        font-size: 1em;
+                    }
+                    #btn1 a {
+                        text-decoration: none;
                     }
                 }
