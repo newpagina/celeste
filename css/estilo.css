@@ -4,7 +4,7 @@
     }
     
     .body {
-        background-color: whitesmoke;
+        background-color: #F5F5DC;
     }
     
     #titulo {
@@ -73,13 +73,14 @@
     #fotocambia {
         width: 30%;
         margin-left: 650px;
+        box-shadow: 1px 2px 3px black;
     }
     
     @media (max-width: 980px) {
         .fondo {
             margin-top: 0PX;
-            width: 50%;
-            margin-left: 96px;
+            width: 100%;
+            margin-left: 0px;
             box-shadow: 2px 3px 4px black;
         }
         .menu {
@@ -95,8 +96,8 @@
             width: 90%;
         }
         #fotocambia {
-            width: 70%;
-            margin-left: 53PX;
+            width: 100%;
+            margin-left: 0PX;
             box-shadow: 1px 2px 3px black;
         }
     }
