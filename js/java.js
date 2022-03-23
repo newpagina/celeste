@@ -15,11 +15,9 @@ function cambia() {
         case 4:
             document.getElementById("fotocambia").src = "img/4.jpg";
             break;
-
         case 5:
             document.getElementById("fotocambia").src = "img/5.jpg";
             break;
-
     }
 
 }
