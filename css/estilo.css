@@ -77,6 +77,7 @@
                 }
                 
                 #btn1 {
+                    display: none;
                     margin-left: 100px;
                 }
                 
@@ -131,5 +132,14 @@
                         font-family: Arial;
                         box-shadow: 1px 2px 3px red;
                         font-size: 1em;
+                    }
+                    #turnos {
+                        margin-top: 10px;
+                        font-size: 1.2em;
+                        text-decoration: underline;
+                    }
+                    #logo {
+                        width: 10%;
+                        box-shadow: 2px 3px 4px red;
                     }
                 }
