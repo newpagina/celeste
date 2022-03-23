@@ -4,13 +4,13 @@
     }
     
     .body {
-        background-color: rgba(4, 233, 4, 0.541);
+        background-color: whitesmoke;
     }
     
     #titulo {
         position: relative;
         text-align: center;
-        background-color: rgba(255, 192, 203, 0.89);
+        background-color: rgba(255, 192, 203, 0.247);
         color: rgba(204, 7, 178, 0.877);
         text-shadow: 1px 2px 3px black;
     }
@@ -56,7 +56,7 @@
         text-align: center;
         font-size: 1.5em;
         font-family: Arial, Helvetica, sans-serif;
-        color: rgb(2, 0, 0);
+        color: rgb(68, 67, 155);
         margin-left: -60px;
     }
     
@@ -66,13 +66,20 @@
         font-size: 1.5em;
         margin-left: 650px;
         font-family: Californian FB;
+        color: rgb(68, 67, 155);
+        ;
+    }
+    
+    #fotocambia {
+        width: 30%;
+        margin-left: 650px;
     }
     
     @media (max-width: 980px) {
         .fondo {
             margin-top: 0PX;
             width: 50%;
-            margin-left: 116px;
+            margin-left: 96px;
             box-shadow: 2px 3px 4px black;
         }
         .menu {
@@ -80,18 +87,16 @@
         }
         #saludo {
             font-size: 20px;
-            margin-left: -30px;
+            margin-left: -10px;
         }
         #saludo1 {
             font-size: 20px;
-            margin-left: 25px;
+            margin-left: 10px;
             width: 90%;
         }
-        .fondo1 {
-            width: 50%;
-            margin-left: 116px;
-            box-shadow: 2px 3px 4px black;
-            margin-top: 0px;
-            margin-bottom: 0px;
+        #fotocambia {
+            width: 70%;
+            margin-left: 53PX;
+            box-shadow: 1px 2px 3px black;
         }
     }
