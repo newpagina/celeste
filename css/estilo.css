@@ -78,6 +78,13 @@
         box-shadow: 1px 2px 2px red;
     }
     
+    #wasa {
+        width: 5%;
+        margin-left: -200px;
+        box-shadow: 1px 2px 2px red;
+        margin-top: -100px;
+    }
+    
     @media (max-width: 900px) {
         .fondo {
             width: 100%;
@@ -110,11 +117,13 @@
         }
         #tra {
             display: block;
-            padding: 15px;
-            margin-left: 155px;
+            padding: 8px;
+            margin-left: 128px;
             margin-top: 0px;
             background-color: aquamarine;
             box-shadow: 1px 2px 3px red;
+            font-size: 1.5em;
+            text-shadow: 1px 2px 3px blue;
         }
         #tra a {
             text-decoration: none;
@@ -153,7 +162,7 @@
             display: flex;
             width: 11%;
             margin-left: 340px;
-            margin-top: -46px;
+            margin-top: -42.5px;
             box-shadow: 1px 2px 2px red;
         }
     }
