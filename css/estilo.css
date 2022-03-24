@@ -139,14 +139,17 @@
         }
         #espacio {
             margin-top: 10px;
+            margin-left: 6px;
         }
         .pa {
             color: rgba(24, 24, 112, 0.842);
-            ;
+            margin-left: 5px;
+            width: 89%;
         }
         #li {
             margin-left: 20px;
             color: rgba(255, 0, 140, 0.767);
+            width: 80%;
         }
         #insta {
             display: flex;
