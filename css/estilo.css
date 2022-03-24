@@ -109,10 +109,10 @@
             margin-right: 0px;
         }
         #tra {
-            display: inline;
+            display: block;
             padding: 5px;
-            margin-left: 140px;
-            margin-top: 5px;
+            margin-left: 130px;
+            margin-top: 10px;
             background-color: aquamarine;
             box-shadow: 1px 2px 3px red;
         }
@@ -140,12 +140,20 @@
             color: rgba(255, 0, 140, 0.767);
         }
         #insta {
+            display: flex;
             width: 10%;
-            margin-left: -200px;
-            margin-top: 10px;
+            margin-left: 30px;
+            margin-top: -40px;
         }
         #espacio {
             text-decoration: underline;
             color: blue;
+        }
+        #wasa {
+            display: flex;
+            width: 10%;
+            margin-left: 290px;
+            margin-top: -34px;
+            box-shadow: 1px 2px 2px red;
         }
     }
