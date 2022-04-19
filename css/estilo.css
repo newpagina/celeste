@@ -99,6 +99,16 @@
             border-radius: 20px;
             margin-top: 0px;
         }
+        #titulo1 {
+            background-color: rgb(255, 0, 106);
+            padding: 10px;
+            font-size: 20px;
+            margin: 20px;
+            border-radius: 20px;
+            margin-top: 0px;
+            color: rgba(38, 0, 255, 0.863);
+            text-align: center;
+        }
         .menu {
             display: none;
         }
